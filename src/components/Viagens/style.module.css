@@ -1,0 +1,13 @@
+/* Pacotes de Viagem */
+.pacotesViagem {
+    padding: 32px 16px;
+  
+    .pacotesGrid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+    }
+  
+    
+  }
+  

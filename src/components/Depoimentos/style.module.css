@@ -1,0 +1,19 @@
+/* Depoimentos */
+.depoimentos {
+    padding: 32px 16px;
+    background: #f9f9f9;
+  
+    h2 {
+      text-align: left;
+      margin-bottom: 32px;
+    }
+  
+    .depoimentosGrid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      justify-content: center;
+    }
+  
+    
+  }

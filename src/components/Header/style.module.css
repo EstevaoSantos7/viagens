@@ -1,0 +1,20 @@
+/* Menu */
+.menu {
+    display: flex;
+    gap: 16px;
+
+}
+
+/* Header */
+.header {
+    background: #007bff;
+    color: white;
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    h1 {
+        margin: 0;
+    }
+}
