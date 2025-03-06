@@ -9,12 +9,14 @@ export default function Destino({bandeira, destino, descricao, imagem}){
             alt="Paris"
             className={style.imagemDestino}
         />
-        <h3>
+       <div className={style.informacoes}>
+       <h3>
             <Flag code={bandeira} height="16" className="bandeira" /> {destino}
         </h3>
         <p>
        {descricao}
         </p>
+       </div>
     </div>
     )
 }
